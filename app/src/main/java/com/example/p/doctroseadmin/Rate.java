@@ -6,37 +6,37 @@ package com.example.p.doctroseadmin;
 
 public class Rate
 {
-    private String name;
-    private String address;
-    private String rate;
-    private String speciality;
-    private String qualification;
+    private String name_of_doctor;
+    private String address_of_doctor;
+    private String rate_of_doctor;
+    private String speciality_of_doctor;
+    private String qualification_of_doctor;
 
-    public Rate(String rate, String address, String speciality, String qualification, String name) {
-        this.rate = rate;
-        this.address = address;
-        this.speciality = speciality;
-        this.qualification = qualification;
-        this.name = name;
+    public Rate(String rate_of_doctor, String address_of_doctor, String speciality_of_doctor, String qualification_of_doctor, String name_of_doctor) {
+        this.rate_of_doctor = rate_of_doctor;
+        this.address_of_doctor = address_of_doctor;
+        this.speciality_of_doctor = speciality_of_doctor;
+        this.qualification_of_doctor = qualification_of_doctor;
+        this.name_of_doctor = name_of_doctor;
     }
 
     public String getRate() {
-        return rate;
+        return rate_of_doctor;
     }
 
     public String getAddress() {
-        return address;
+        return address_of_doctor;
     }
 
     public String getSpeciality() {
-        return speciality;
+        return speciality_of_doctor;
     }
 
     public String getQualification() {
-        return qualification;
+        return qualification_of_doctor;
     }
 
-    public String getName() {
-        return name;
+    public String getname_of_doctor() {
+        return name_of_doctor_of_doctor;
     }
 }
